@@ -1,0 +1,222 @@
+
+nav ul{
+	float: right;
+}
+nav li {
+	display: inline;
+	padding: 0 10px 0 10px;
+}
+nav li a{
+	text-decoration: none;
+	color: #fff;
+}
+nav li a:hover{
+	text-decoration: none;
+	color: #007eff;
+}
+.selanjutnya{
+	background: #0e2335;
+	color: #fff;
+	padding: 10px 52px 10px 52px;
+}
+.selanjutnya:hover{
+	background: #007eff;
+	color: #000;
+	padding: 10px 52px 10px 52px;
+}
+.selanjutnya:focus{
+	background: #efefef;
+	color: #000;
+	padding: 10px 52px 10px 52px;
+}
+.panggil:hover{
+	background: #007eff;
+	color: #000;
+	padding: 10px 90px 10px 90px;
+}
+.panggil:focus{
+	background: #efefef;
+	color: #000;
+	padding: 10px 90px 10px 90px;
+}
+.panggil{
+	background: #0e2335;
+	color: #fff;
+	padding: 10px 90px 10px 90px;
+}
+.row{
+	position: relative;
+}
+header {
+	background: #0e2335;
+	margin: auto;
+	max-height: 190px;
+	width: 100%;
+}
+.img{
+	max-width: 100%;
+	height: auto;
+}
+#logo img{
+	max-height: 100%;
+	width: auto;
+	padding: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.instansi{
+	padding-top: 0px;
+}
+.instansi a{
+	text-decoration: none;
+}
+h1{
+	color: white;
+	text-align: center;
+	font-size: 62px;
+}
+h3{
+	color: white;
+	text-align: center;
+	margin: 0px;
+}
+.menu{
+	background: #0f0f0f;
+	padding: 10px;
+	min-height: 47px;
+}
+footer{
+	background: #0f0f0f;
+	min-height: 50px;
+}
+.footer{
+	color: #fff;
+	float: right;
+	margin: 15px;
+}
+
+.container{
+	background: #efefef;
+	width: 100%;
+	margin: auto;
+	min-height: 400px;
+}
+.box{
+	box-shadow: 0 0 8px #D0D0D0;
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+}
+.loket{
+	background: #0e2335;
+	font-size: 32px;
+	text-align: center;
+	color: #fff;
+	padding: 10px;
+}
+.antrian{
+	background: #fff;
+	font-size: 82px;
+	text-align: center;
+	color: #000;
+}
+.agenda{
+	background: #fff;
+	padding: 10px;
+	text-align: center;
+}
+.agenda img{
+	margin: auto;
+}
+#agenda{
+	height: 303px;
+}
+.agenda h1{
+	font-size: 200px;
+	color: #000;
+	margin-top: -10px;
+}
+#slide{
+	height: 320px;
+}
+#user{
+	float: left;
+}
+@media all and (max-width:568px){
+	h1{
+		color: white;
+		text-align: center;
+		font-size: 27px;
+	}
+	.img{
+		max-width: 100%;
+		height: auto;
+	}	
+	#logo img{
+		max-height: 100%;
+		width: auto;
+		padding: 15px;
+		padding-right: 0px;
+	}
+	h3{
+		color: white;
+		text-align: center;
+		margin: 2px;
+		font-size: 18px;
+	}
+	#alamat{
+		padding-top: 50px;
+	}
+	#slide{
+		height: 150px;
+	}
+	.menu{	
+
+	}
+	#menu {
+		display: none;
+		background: #0f0f0f;
+		padding: 10px;
+		min-height: 47px;
+		width: 100%;
+		padding-left: 0;
+	}
+	#user{
+		display: none;
+	}
+	nav ul{
+		float: left;
+	}
+	nav li {
+		display: block;
+		padding: 0 10px 0 10px;
+		text-align: left;
+	}
+	#list{
+		float: right;
+		position: absolute;
+		right: 20px;
+	}
+	#list1{
+		float: right;
+		position: absolute;
+		right: 20px;
+	}
+	.panggil:hover{
+		background: #007eff;
+		color: #000;
+		padding: 10px 90px 10px 90px;
+		margin-bottom: 10px;
+	}
+	.panggil:focus{
+		background: #efefef;
+		color: #000;
+		padding: 10px 90px 10px 90px;
+		margin-bottom: 10px;
+	}
+	.panggil{
+		background: #0e2335;
+		color: #fff;
+		padding: 10px 90px 10px 90px;
+		margin-bottom: 10px;
+	}
+}
